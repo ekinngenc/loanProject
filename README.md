@@ -12,6 +12,6 @@ for (Object loan : loans) {
     sum += 20;
   } else
     throw new UnknownLoanException();
-  }
+  } 
 return sum;
 }
